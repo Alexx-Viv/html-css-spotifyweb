@@ -1,0 +1,36 @@
+*{
+    color: white;
+}
+
+
+#uno{
+    height: 100px;
+    background-color: #282828;
+    position: fixed;
+    bottom: 0;
+}
+
+#due{
+    height: 100vh;
+    background-color: #141A23;
+    overflow-y: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#tre{
+    height: 100vh;
+    background-color: black;
+}
+
+#quattro{
+    height: 100px;
+    background-color: black;
+    opacity: 0.5;
+    position: fixed;
+    top:0;
+}
+
+.primo-piano{
+    z-index: 1;
+}
