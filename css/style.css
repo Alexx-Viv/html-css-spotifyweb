@@ -9,8 +9,11 @@
 
 /* ******************** GENERAL ********************  */
 #menu {
-  height: 100vh;
+  height: 90vh;
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 #top-bar {
   height: 10vh;
@@ -56,16 +59,25 @@ img {
   margin: 10px 10px;
 }
 
-#main .display-main{
-    justify-content: space-between;
-    margin: 15px;
+#main .display-main {
+  justify-content: space-between;
+  margin: 15px;
 }
 
-.title{
+.title {
   padding-left: 15px;
   margin: 15px 0;
 }
 
 h4 {
   margin: 10px 0;
+}
+
+#menu img {
+  padding: 2px 5px;
+}
+
+#profile {
+  background-color: grey;
+  border-radius: 50%;
 }
