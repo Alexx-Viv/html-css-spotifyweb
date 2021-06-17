@@ -3,14 +3,14 @@
 }
 
 
-#uno{
+#footer{
     height: 100px;
     background-color: #282828;
     position: fixed;
     bottom: 0;
 }
 
-#due{
+#main{
     height: 100vh;
     background-color: #141A23;
     overflow-y: auto;
@@ -18,19 +18,15 @@
     padding-top: 100px;
 }
 
-#tre{
+#menu{
     height: 100vh;
     background-color: black;
 }
 
-#quattro{
+#top-bar{
     height: 100px;
     background-color: black;
     opacity: 0.5;
     position: fixed;
     top:0;
-}
-
-.primo-piano{
-    z-index: 1;
 }
