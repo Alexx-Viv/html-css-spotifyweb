@@ -66,6 +66,9 @@ h4 {
 .disply{
   display: none;
 }
+.text-right{
+  text-align: end;
+}
 
 /* ******************** HEADER ********************  */
 #download {
@@ -133,7 +136,8 @@ footer .row .col-xs-4{
 .flex-right{
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: flex-end;
+ padding-right: 10%;
   align-items: center;
 }
 
@@ -149,6 +153,7 @@ footer .row .col-xs-4{
   flex-direction: column;
   justify-content: center;
   font-size: 12px;
+  margin-right: 10%;
 }
 
 #test2{
@@ -193,7 +198,6 @@ footer .hr{
 .space{
   display: flex;
   flex-direction: row;
-  flex
 }
 
 .space2{
@@ -212,7 +216,18 @@ footer .hr{
   display: none;
 }
 
+.flex-start{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 @media screen and (min-width: 576px) {
+
+  #logo-header::after{
+    content: 'Spotify';
+    font-size: large;
+  }
 
   .col-sm-header {
     width: 225px;
@@ -300,4 +315,16 @@ footer .hr{
     font-size:32px;
   }
 
+}
+
+@media screen and (min-width: 768px) {
+
+  #footer .flex{
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer .fa-play-circle, .fa-step-backward, .fa-step-forward, .fa-undo, .fa-random{
+    margin: 0 10px;
+  }
 }
